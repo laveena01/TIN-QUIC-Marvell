@@ -1,8 +1,3 @@
-
-// client.c – QUIC client with separate HS vs RD metrics, configurable payload
-// build: gcc -pthread client.c -o client -lssl -lcrypto
-// usage: ./client <threads> <mode:0rtt|1rtt> <duration_s> <server_ip> <server_port> <payload_size>
-
 #include <stdio.h>
 #include <string.h>
 #include <unistd.h>
