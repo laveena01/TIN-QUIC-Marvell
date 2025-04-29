@@ -1,7 +1,3 @@
-// server.c – QUIC server supporting optional 0‑RTT echo, configurable payload size
-// build: gcc -pthread server.c -o server -lssl -lcrypto
-// usage: ./server <port> <server.crt> <server.key> <payload_size> [--0rtt]
-
 #include <openssl/err.h>
 #include <openssl/ssl.h>
 #include <openssl/quic.h>
